@@ -15,8 +15,10 @@ The subtotals,tax,total have identifiers but stocks do not. Make it difficult to
 4. These states were missing from the drop down -> "District of Columbia","American Samoa","Guam",,"Virgin Islands", "Puerto Rico
 
 =======
+
 Test case design:
-1. There is a file "cypress.json" whihc has all the config values. Feel free to change it.
+There is a file "cypress.json" whihc has all the config values.
+
 The test cases have been devided into 2 parts
 1. Positive
 2. Negative
@@ -26,7 +28,7 @@ For positive test cases I have included:
 2. For New York with tax rate 0.06 -> Buying all the items.
 3. For Minnesota with tax rate 0.00 -> Buying all the items.
 4. For any other state with tax rate 0.05 -> Buying all the items.
-5. For any other state with tax rate 0.05, when user enters in franction for example: 10.3 -> Buying all the items (it randomly selects a state (Ignoring CA,MN,NY))
+5. For any other state with tax rate 0.05, when user enters in franction for example: 10.3 -> Buying all the items 
 6. For New York with tax rate 0.06, user enters acceptable and non acceptable quantities to buy.
 
 For negative/edge test cases I have included:
@@ -34,15 +36,13 @@ For negative/edge test cases I have included:
 2. When user enters values other than digits.
 3. When user enters nothing but a selecting state and click checkout.
 4. When user enters nothing,not selecting a state and click checkout.
-5. For North Dekota the taxes are calulated at 10% not 5%.
-
-
+5. For North Dekota the taxes are calulated at 10% not 5%. -> This test case fails.(Refer to BUG Caught section of README)
 
 BUG Caught:
 1. For the state "North Dakota" the Taxes are caluculated at 10% not 5% (as mentioned) :) -> I have included it as a seperate test case.
 
 OBSERVATION:
-1. Display of "item in stock" is misleading. As it has no negative impact on the item the customer can buy. I am ignoring this field all together in my automation.
+1. Display of "In Stock" is misleading. As it has no negative impact on the item the customer can buy. I am ignoring this field all together in my automation.
 
 
 
