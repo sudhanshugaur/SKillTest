@@ -1,0 +1,24 @@
+{
+    "baseUrl": "https://jungle-socks.herokuapp.com",
+    "env": {
+        "ITEMS_TO_BUY_CALIFORNIA": 773,
+        "ITEMS_TO_BUY_NEWYORK": 112,
+        "ITEMS_TO_BUY_MINNESOTA": 1000,
+        "ITEMS_TO_BUY_OTHER_STATE": 754,
+        "ITEMS_TO_BUY_IN_FRACTION": 12.56,
+        
+        "NY_TAX": "0.06",
+        "CA_TAX":"0.08",
+        "MN_TAX": "0.00",
+        "OTHER_STATE": "0.05",
+
+        "ZEBRA_COST": "13",
+        "LION_COST": "20",
+        "ELEPHANT_COST": "35",
+        "GIRAFFE_COST": "17"
+
+
+
+
+    }
+}
