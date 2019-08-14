@@ -1,8 +1,15 @@
 # SkillTest
-1. Install npm via "install npm"
+Git clone:
+1. Go to /Documents folder
+2. run "git clone git@github.com:sudhanshugaur/SKillTest.git"
+3. This will create a directory /SKillTest
+4. Do "cd ernest"
+
+After git clone:
+1. Install npm via "pip install npm" (ignore if you already have it)
 2. install cypress via "npm install cypress"
 3. install node "pip install node"
-4. type "npm start"
+4. type "npm start" (optional)
 5. once done, cypress via "npm run cypress"
 6. This will open cypress run window where you can choose the file to run test cases.
 
