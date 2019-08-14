@@ -1,2 +1,0 @@
-# SkillTest
-Ernest Skill Test
