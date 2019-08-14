@@ -10,15 +10,11 @@
         "NY_TAX": "0.06",
         "CA_TAX":"0.08",
         "MN_TAX": "0.00",
-        "OTHER_STATE": "0.05",
+        "OTHER_STATE_TAX": "0.05",
 
         "ZEBRA_COST": "13",
         "LION_COST": "20",
         "ELEPHANT_COST": "35",
         "GIRAFFE_COST": "17"
-
-
-
-
     }
 }
